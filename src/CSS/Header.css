@@ -1,7 +1,7 @@
 .rightSide
 {
     display: flex;
-    margin-left: 8rem;
+    margin-left: 5rem;
 }
 
 i{
@@ -9,7 +9,7 @@ i{
 }
 
 
-/*** Navbar ***/
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -17,15 +17,17 @@ i{
     font-weight: 400px;
     vertical-align: middle;
     margin-left: 8px;
+    
 }
 
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none;
+   
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -41,22 +43,27 @@ i{
 
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
+        
     }
 }
 
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
-    height: 75px;
+    height: 43px;
+    font-weight: 900;
+    
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);
-    font-weight: 500;
+    font-weight: 900;
+    
 }
 
 .navbar-light.sticky-top {
     top: -100px;
     transition: .5s;
+    
 }
 
 @media (min-width: 992px) {
@@ -66,12 +73,14 @@ i{
         opacity: 0;
         visibility: hidden;
         transition: .5s;
+        
     }
 
     .navbar .dropdown-menu.fade-down {
         top: 100%;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
+        
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -80,6 +89,7 @@ i{
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        
     }
 }
 

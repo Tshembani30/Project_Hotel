@@ -13,7 +13,7 @@ function Slider() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <p>Get the free PlayStation App from the iOS App Store.</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -23,7 +23,7 @@ function Slider() {
             alt="Second slide "
           />
           <Carousel.Caption>
-            <p>LGet the free Wifi App from the iOS App Store.</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -33,17 +33,7 @@ function Slider() {
             alt="Second slide "
           />
           <Carousel.Caption>
-            <p>Get the free Wifi App from the iOS App Store.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="slid"
-            src="https://media.istockphoto.com/id/1328934427/photo/3d-render-of-luxury-hotel-room.jpg?s=612x612&w=0&k=20&c=JvG7-4N9mTGeGZvX5LXIwo3CGK2rXcFcEq5ymcc9zAk="
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <p>Get the free Wifi App from the iOS App Store.</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -53,9 +43,7 @@ function Slider() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <p>
-              Get the free Wifi App from the iOS App Store.
-            </p>
+            <p> </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Header from '../Component/Header'
 function Hotel() {
   return (
-    <div>Hotel</div>
+    <div>
+      <Header/>Hotel</div>
   )
 }
 

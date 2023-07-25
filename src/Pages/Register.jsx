@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Button, Row, Container, Card, Form } from 'react-bootstrap';
 import Header from '../Component/Header';
-import '../Pages/Register.css'
+import '../CSS/Register.css'
 
 export default function Registration() {
   return (

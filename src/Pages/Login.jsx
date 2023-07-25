@@ -1,57 +1,51 @@
-import React, { Component } from 'react'
+import React from 'react'
+import '../CSS/Login.css'
 import Header from '../Component/Header'
-import { Container } from 'react-bootstrap'
-import '../Pages/Login.css'
+function Login() {
+  return (
+    
+  <section>
+    <Header/> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
 
+   <div class="signin"> 
+   
+    <div class="content"> 
 
-export default class Login extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <div className='formm'>
-          <form>
-            <h3>Login</h3>
-            <div className="mb-3">
-              <label>Email address</label>
-              <input
-                type="email"
-                className="form-control"
-                placeholder="Enter email"
-              />
-            </div>
-            <div className="mb-3">
-              <label>Password</label>
-              <input
-                type="password"
-                className="form-control"
-                placeholder="Enter password"
-              />
-            </div>
-            <div className="mb-3">
-              <div className="custom-control custom-checkbox">
-                <input
-                  type="checkbox"
-                  className="custom-control-input"
-                  id="customCheck1"
-                />
-                <label className="custom-control-label" htmlFor="customCheck1">
-                  Remember me
-                </label>
-              </div>
-            </div>
-            <div className="d-grid">
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
-            </div>
-            <p className="forgot-password text-right">
-              Forgot <a href="#">password?</a>
-            </p>
-          </form>
+     <h2>Sign In</h2> 
 
-        </div>
-      </div>
-    )
-  }
+     <div class="form"> 
+
+      <div class="inputBox"> 
+
+       <input type="text" required/> <i>Username</i>
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="password" required/> <i>Password</i> 
+
+      </div> 
+
+      <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="submit" value="Login"/> 
+
+      </div> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+  </section>
+
+  )
 }
+
+export default Login

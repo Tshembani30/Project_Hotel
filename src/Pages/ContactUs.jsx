@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Component/Header'
-import '../Pages/ContactUs.css'
+import '../CSS/ContactUs.css'
 
 const ContactUs = () => {
     return (

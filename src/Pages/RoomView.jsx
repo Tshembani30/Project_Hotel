@@ -1,5 +1,5 @@
 import React from "react";
-import '../Pages/RoomView.css'
+import '../CSS/RoomView.css'
 import Header from "../Component/Header"
 function RoomView() {
   return (

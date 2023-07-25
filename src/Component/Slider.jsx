@@ -43,7 +43,7 @@ function Slider() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <p> </p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -1,5 +1,6 @@
 import React from 'react'
 import ("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+import '../CSS/Services.css'
 
 const Services = () => {
   return (
